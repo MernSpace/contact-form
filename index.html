@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clarity Signup</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-black font-sans">
+  <!-- Centered Content Container -->
+  <div class="min-h-screen flex items-center justify-center px-4">
+    <div class="flex flex-col lg:flex-row w-full max-w-6xl bg-white rounded-xl overflow-hidden shadow-xl">
+      <!-- Left Panel -->
+      <div class="bg-blue-600 text-white flex flex-col justify-between p-10 lg:p-20 lg:w-1/2">
+        <div>
+          <h1 class="text-4xl font-bold mb-4 leading-tight">
+            Welcome to<br />
+            our community
+          </h1>
+          <p class="text-lg max-w-md">
+            Clarity gives you the blocks & components you need to create a truly professional website.
+          </p>
+        </div>
+
+        <div class="mt-10 lg:mt-0">
+          <div class="flex items-center space-x-1 mb-4">
+            <span class="text-yellow-400 text-3xl">★</span>
+            <span class="text-yellow-400 text-3xl">★</span>
+            <span class="text-yellow-400 text-3xl">★</span>
+            <span class="text-yellow-400 text-3xl">★</span>
+            <span class="text-yellow-400 text-3xl">★</span>
+          </div>
+
+          <p class="text-white text-base max-w-sm mb-4">
+            "We love Landingfolio! Our designers were using it for their projects, so we already knew what kind of
+            design they want."
+          </p>
+
+          <div class="flex items-center space-x-3">
+            <img src="https://randomuser.me/api/portraits/women/44.jpg" class="w-10 h-10 rounded-full"
+              alt="Devon Lane" />
+            <div>
+              <p class="font-semibold">Devon Lane</p>
+              <p class="text-sm opacity-70">Co-Founder, Design.co</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Panel -->
+      <div class="bg-gray-100 flex flex-col justify-between p-10 lg:p-20 lg:w-1/2">
+        <div>
+          <h2 class="text-3xl font-bold mb-2">Join Clarity</h2>
+          <p class="text-gray-600 mb-8">
+            Clarity gives you the blocks and components you<br />need to create a truly professional website.
+          </p>
+        </div>
+
+        <form class="w-full max-w-md space-y-4">
+          <label class="block">
+            <span class="text-sm font-medium">Full name</span>
+            <input type="text"
+              class="mt-1 block w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500" />
+          </label>
+
+          <label class="block">
+            <span class="text-sm font-medium">Email address</span>
+            <input type="email"
+              class="mt-1 block w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500" />
+          </label>
+
+          <label class="block">
+            <span class="text-sm font-medium">Password</span>
+            <input type="password"
+              class="mt-1 block w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500" />
+          </label>
+
+          <div class="flex items-center justify-between">
+            <label class="inline-flex items-center text-sm">
+              <input type="checkbox" class="form-checkbox text-blue-600 mr-2" />
+              Remember me
+            </label>
+            <a href="#" class="text-blue-600 text-sm hover:underline">Forgot password?</a>
+          </div>
+        </form>
+
+        <div class="mt-8">
+          <button type="submit"
+            class="w-full max-w-md bg-blue-600 text-white py-2 rounded-md text-lg font-semibold hover:bg-blue-700 transition duration-200">
+            Sign Up
+          </button>
+
+          <p class="text-sm text-gray-600 mt-6">
+            Don’t have an account?
+            <a href="#" class="text-blue-600 hover:underline">Create free account</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
