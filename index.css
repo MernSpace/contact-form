@@ -1,16 +1,5 @@
-.bg-right {
-    background-image: url('./shape1.png')!important; /* Ensures the image is loaded from the correct path */
-    background-repeat: no-repeat;
-    background-position: right; /* Aligns image to the right */
+.bg-right{
+    background-image: url('./shape1.png'), url('./shape2.png');
+    background-position: top left, bottom right;
+    background-repeat: no-repeat, no-repeat;
 }
-
-
-@media (min-width: 1024px) {
-    .bg-right {
-      background-image: url('./shape1.png');
-      background-repeat: no-repeat;
-      background-position: top left; /* Aligns image to the right */
-        background-size: 100%; /* Ensures the image covers the entire area */
-    }
-   
-  }
